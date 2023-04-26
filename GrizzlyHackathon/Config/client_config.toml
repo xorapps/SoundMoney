@@ -1,0 +1,2 @@
+ip = "bore.pub:41413" # Don't add http:// . Also https is not currently supported. The default IP is "127.0.0.1:6364"
+email = "email_where_to_send_the_transaction_receipt" # Example "support@m81.network"

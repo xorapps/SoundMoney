@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "FusionEngineGeyser",
+    "GeyserServiceCommon",
+    "ValidatorDocumentService",
+    "Geyser-Service-Client",
+    "Geyser-Service-Program",
+    "ValidatorMailService",
+    "ValidatorCDNService"
+]

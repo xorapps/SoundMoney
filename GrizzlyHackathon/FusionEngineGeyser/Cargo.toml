@@ -1,0 +1,35 @@
+[package]
+name = "fusion-engine-geyser"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "XOR·APPS <developers@xorapps.network>",
+    "M81 Network Developers <support@m81.network>",
+]
+license = "AGPL-3.0-or-later"
+repository = "https://github.com/m81network/GrizzlyHackathon"
+homepage = "https://m81.network/"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+async-dup = "1.2.2"
+borsh = "0.9.3"
+bs58 = "0.4.0"
+futures-lite = "1.12.0"
+geyser-service-common = { path = "../GeyserServiceCommon" }
+lazy_static = "1.4.0"
+log = "0.4.17"
+smol = "1.3.0"
+solana-geyser-plugin-interface = "1.15.2"
+solana-logger = "1.15.2"
+solana-sdk = "1.15.2"
+solana-transaction-status = "1.15.2"
+xor-mailer-common = { git = "https://github.com/xorapps/XOR-MAILER" }
+validator-document-service = { path = "../ValidatorDocumentService" }
+serde = { version = "1.0.154", features = ["derive"] }
+once_cell = "1.17.1"
+serde_json = "1.0.94"

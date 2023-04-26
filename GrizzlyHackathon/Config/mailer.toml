@@ -1,0 +1,4 @@
+smtp_port = smtp_port #Example `587`sender = ["SENDER_NAME", "sender_email_address"]
+smtp_uri = "mail_server_uri"    #Example `smtp.gmail.com` or `mail.infomaniak.com`
+smtp_username = "smtp_username" #Most of the time it's the same as the `sender_email_address`
+smtp_password = "smtp_password" #The password to login to the mail server in order to send emails

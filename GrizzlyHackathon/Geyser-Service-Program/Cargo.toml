@@ -1,0 +1,25 @@
+[package]
+name = "geyser-service-program"
+version = "0.2.0"
+description = "Smart contract to handle the services API for M81 FusionDrive Service"
+authors = [
+    "XOR·APPS <developers@xorapps.network>",
+    "M81 Developers <support@m81.network>",
+]
+repository = "https://github.com/m81network/GrizzlyHackathon"
+license = "AGPL"
+homepage = "https://m81.network/"
+edition = "2018"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+geyser-service-common = { path = "../GeyserServiceCommon/" }
+borsh = "0.9.3"
+borsh-derive = "0.10.0"
+solana-program = "=1.15.2"
+
+[lib]
+name = "geyser_service_program"
+crate-type = ["cdylib", "lib"]

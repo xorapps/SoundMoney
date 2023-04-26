@@ -1,0 +1,4 @@
+{
+    "libpath": "../target/release/libfusion_engine_geyser.so",
+    "validator_config": "./validator_info.toml"
+}
